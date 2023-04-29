@@ -1,0 +1,19 @@
+body {
+    background-color: aliceblue;
+    color: lightcoral;
+    padding-left: 10%;
+}
+
+h1 {
+    background-color: lightcoral;
+    color: white;
+    padding-left: 10%;
+}
+
+#highlight {
+    background-color: white;
+    display: inline-block;
+    padding: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
