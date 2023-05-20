@@ -8,3 +8,14 @@
     padding: 15px;
     width: 350px;
 }
+
+.sec1
+{
+    background-color: tan;
+}
+
+body
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Libre+Baskerville&display=swap');
+
 #content
 {
     margin: 0 auto;
@@ -11,6 +14,7 @@ nav a
     background-color: #134074;
     color: #EEF4ED;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover
@@ -45,6 +49,15 @@ body
 {
     background-color: #EEF4ED;
     color: #0B2545;
+    font-family: "Comfortaa", Helvetica, sans-serif;
+    font-size: 22px;
+
+    margin: 0;
+    padding: 0;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 head
@@ -58,6 +71,8 @@ footer, footer a
     font-size: 1.2em;
     background-color: #134074;
     color: #EEF4ED;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a
@@ -70,10 +85,21 @@ footer p a:hover
     text-decoration: underline;
 }
 
+.card-img 
+{
+    border: 10px solid;
+    border-radius: 5px;
+}
+
 .book:hover, .join:hover, footer a:hover
 {
     background-color: #EEF4ED;
     color: #0B2545;
+}
+
+footer .social img
+{
+    padding-top: 15px;
 }
 
 .book, .join
@@ -81,18 +107,37 @@ footer p a:hover
     background-color: #134074;
     color: #EEF4ED;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card
+{
+    margin: 200px 0;
 }
 
 .msg
 {
     background-color: #134074;
     color: #EEF4ED;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg p
+{
+    padding-bottom: 15px;
 }
 
 .home-title
 {
     background-color: #134074;
     color: #EEF4ED;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4
@@ -103,9 +148,25 @@ h4
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img
 {
     width:100%;
+}
+
+#logo_link
+{
+    padding-top:15px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: "Libre Baskerville", "Times New Roman", "Serif";
+}
+
+h2
+{
+    margin: 0;
 }
