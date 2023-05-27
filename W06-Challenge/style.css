@@ -1,0 +1,23 @@
+div
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h2
+{
+    font-size: 4em;
+    color:darkred;
+    background-color: lightgrey;
+}
+
+h1
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    font-family: serif;
+    font-size: 6em;
+    position: fixed;
+    z-index: 1;
+}
