@@ -1,0 +1,25 @@
+#maindiv
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr
+}
+
+#form
+{
+    justify-content: center;
+}
+
+#title
+{
+    text-align: center;
+}
+
+#message
+{
+    text-align: center;
+}
+
+#email
+{
+    
+}

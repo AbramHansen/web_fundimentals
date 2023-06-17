@@ -15,6 +15,7 @@ nav a
     color: #EEF4ED;
     text-decoration: none;
     padding: 35px;
+    border-radius: 10px;
 }
 
 nav
@@ -316,4 +317,57 @@ h2
     footer {
         margin-top: 25px;
     }
+}
+
+
+/*rates and dates pages stuff*/
+
+
+#rates-and-dates-div
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
+    grid-gap: 20px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.trip-box
+{
+    border-radius: 10px;
+    background-color: #8DA9C4;
+}
+
+.trip-box img
+{
+    border-radius: 10px;
+    width: 90%;
+}
+
+.trip-box h2
+{
+    margin-top: 25px;
+}
+
+.trip-box button
+{
+    background-color: #134074;
+    color: #EEF4ED;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin: 25px;
+    border-radius: 5px;
+}
+
+.trip-box button:hover {
+    background-color: #EEF4ED;
+    color: #134074;
+    transform: scale(1.1);
+}
+
+.radio-date-box
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
